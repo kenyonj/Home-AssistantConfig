@@ -1,0 +1,2 @@
+platform: tplink
+host: !secret house_number_plug_ip_address

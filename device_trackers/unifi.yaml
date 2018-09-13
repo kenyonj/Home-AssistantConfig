@@ -1,0 +1,7 @@
+platform: unifi
+host: !secret unifi_host_ip_address
+port: 8443
+username: !secret unifi_username
+password: !secret unifi_password
+verify_ssl: false
+ssid_filter: !secret unifi_ssid_filter

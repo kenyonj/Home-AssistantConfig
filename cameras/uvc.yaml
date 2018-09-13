@@ -1,0 +1,4 @@
+platform: uvc
+nvr: !secret uvc_nvr_ip_address
+key: !secret uvc_camera_api_key
+password: !secret uvc_camera_password
