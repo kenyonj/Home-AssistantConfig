@@ -30,3 +30,6 @@ logbook:
 map:
 sun:
 updater:
+
+logger:
+  default: info
