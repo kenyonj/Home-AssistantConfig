@@ -8,6 +8,7 @@ ecobee: !include integrations/ecobee.yaml
 group: !include configurations/groups.yaml
 http: !include configurations/http.yaml
 media_player: !include_dir_list media_players/
+mqtt: !include configurations/mqtt.yaml
 notify: !include_dir_list notifiers/
 panel_iframe: !include_dir_named menu_items/
 ring: !include integrations/ring.yaml
@@ -27,6 +28,5 @@ frontend:
 history:
 logbook:
 map:
-mqtt:
 sun:
 updater:
