@@ -30,4 +30,7 @@ ipchange.yaml
 production_auth.json
 zigbee.db
 node-red/flows.json
-appdaemon/
+!appdaemon/
+appdaemon/*
+!appdaemon/dashboards
+!appdaemon/apps
