@@ -7,6 +7,7 @@ device_tracker: !include_dir_list device_trackers/
 ecobee: !include integrations/ecobee.yaml
 group: !include configurations/groups.yaml
 http: !include configurations/http.yaml
+ifttt: !include integrations/ifttt.yaml
 media_player: !include_dir_list media_players/
 mqtt: !include configurations/mqtt.yaml
 notify: !include_dir_list notifiers/
