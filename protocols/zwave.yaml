@@ -1,1 +1,5 @@
 usb_path: /dev/ttyUSB0
+device_config:
+  light.living_room_lights_ge_dimmer:
+    refresh_value: true
+    delay: 5 
