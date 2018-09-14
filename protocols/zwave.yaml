@@ -3,3 +3,6 @@ device_config:
   light.living_room_lights_ge_dimmer:
     refresh_value: true
     delay: 5 
+  light.fireplace_lights_ge_dimmer:
+    refresh_value: true
+    delay: 5 
