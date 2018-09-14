@@ -5,3 +5,8 @@ elevation: !secret home_elevation
 unit_system: imperial
 time_zone: America/New_York
 customize: !include customize.yaml
+customize_glob:
+  "light.ge_12724_3way_dimmer_switch_level_*":
+    polling_intensity: 1
+    refresh_value: 1
+    delay: 3
