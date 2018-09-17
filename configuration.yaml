@@ -3,6 +3,7 @@ homeassistant: !include configurations/main.yaml
 automation: !include automations.yaml
 binary_sensor: !include_dir_list binary_sensors/
 camera: !include_dir_list cameras/
+cloud: !include_dir_named cloud/
 device_tracker: !include_dir_list device_trackers/
 ecobee: !include integrations/ecobee.yaml
 group: !include configurations/groups.yaml
@@ -23,7 +24,6 @@ tuya: !include integrations/tuya.yaml
 zha: !include protocols/zigbee.yaml
 zwave: !include protocols/zwave.yaml
 
-cloud:
 config:
 conversation:
 discovery:

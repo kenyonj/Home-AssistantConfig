@@ -1,0 +1,3 @@
+filter:
+  include_entities:
+    - light.islan_lights_ge_dimmer
