@@ -15,6 +15,7 @@ nest: !include integrations/nest.yaml
 notify: !include_dir_list notifiers/
 nuheat: !include integrations/nuheat.yaml
 panel_iframe: !include_dir_named menu_items/
+remote: !include_dir_list remotes/
 ring: !include integrations/ring.yaml
 script: !include configurations/scripts.yaml
 sensor: !include_dir_list sensors/
