@@ -31,4 +31,4 @@ production_auth.json
 zigbee.db
 node-red/flows.json
 .HA_VERSION
-appdaemon/compiled/
+appdaemon/compiled
