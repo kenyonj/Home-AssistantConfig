@@ -1,1 +1,1 @@
-access_token !secret hydrawise_api_key
+access_token: !secret hydrawise_api_key
