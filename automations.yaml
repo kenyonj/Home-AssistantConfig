@@ -15,3 +15,34 @@
   action:
     service: switch.turn_off
     entity_id: switch.house_numbers
+
+- id: '1537665070210'
+  alias: Turn off Living Room TV
+  trigger: []
+  condition: []
+  action:
+  - data:
+      activity: SHIELD TV
+      entity_id: remote.living_room
+    service: remote.turn_off
+
+- id: '1537665204818'
+  alias: Turn on Living Room TV
+  trigger: []
+  condition: []
+  action:
+  - data:
+      activity: SHIELD TV
+      entity_id: remote.living_room
+    service: remote.turn_on
+
+- id: '1537748194614'
+  alias: play white noise on Chromecast
+  trigger: []
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.chromecast_audio_5
+      media_content_type: playlist
+      media_content_id: spotify:user:kenyonj:playlist:3QMMKXEn6CKiyVRVXsRaQW
+    service: media_player.play_media
