@@ -32,3 +32,5 @@ zigbee.db
 node-red/flows.json
 .HA_VERSION
 appdaemon/compiled
+node-red/flows.json
+.spotify-token-cache
